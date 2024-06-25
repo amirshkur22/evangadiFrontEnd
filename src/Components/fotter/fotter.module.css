@@ -1,0 +1,13 @@
+.outerContainer{
+    background-color:#3B455A;
+}
+.outerContainer section{
+    padding: 70px 0 30px;
+}
+.outerContainer svg{
+    margin: 10px;
+    color: #fff;
+}
+h4{
+    color: #fff;
+}

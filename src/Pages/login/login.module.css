@@ -1,0 +1,118 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(81, 107, 152, 0.16);
+  padding: 15px 0px;
+}
+.linkContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.linkContainer a {
+  text-decoration: none;
+  color: #000;
+}
+.linkContainer a:hover {
+  color: #ff8414;
+}
+.linkContainer button {
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #0d5ed8;
+  color: #fff;
+}
+
+.outerContainer {
+  background-image: url(../../assets/images/back.svg);
+  background-repeat: no-repeat;
+  height: 705px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+
+.outerContainer .firstChild {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+.outerContainer .secondChild{
+  margin-top: 90px;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.formContainer form div{
+  margin-bottom: 10px;
+}
+.formContainer form input {
+  padding: 8px 16px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.formContainer form input:focus{
+  border-bottom: 2px solid orange;
+  transition: all 0.4s ease-in-out;
+
+}
+
+/* span {
+  position: absolute;
+  transition: all 200ms ease-in-out;
+}
+ .line1 {
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: orange;;
+    z-index: 1;
+    transform: translateX(0%);
+    transition: transform 0.4s ease-in-out;
+  } */
+
+.formContainer form button {
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #0B5ED7;
+  border-radius: 5px;
+}
+.outerContainer a {
+  color: #ff8414;
+}
+h2 {
+  font-size: 45px;
+  color: #e33f00;
+  line-height: 56px;
+  font-weight: 600;
+ 
+}
+h2>p{
+   color:  #FE8402;
+}
+.btn {
+    border: none;
+    width: 50%;
+    margin: 10px auto;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #ff8414;
+    border-radius: 5px;
+  }
+  
+  
+

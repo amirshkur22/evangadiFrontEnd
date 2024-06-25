@@ -1,0 +1,31 @@
+ .line1 {
+    bottom: -5px;;
+    left: 0;
+    width: 40%;
+    height: 2px;
+    background: orange;;
+    z-index: 1;
+    transform: translateX(0%);
+    transition: transform 0.4s ease-in-out;
+  }
+  svg{
+    color: orange;
+    font-size: 22px;
+    margin-right: 6px;
+  }
+.question {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.question:hover {
+  background-color: lightgray; 
+  color: #000; 
+}
+.arrowIcon {
+  transition: transform 0.3s ease;
+}
+
+.question:hover .arrowIcon {
+  transform: translateX(10px); 
+}
+
